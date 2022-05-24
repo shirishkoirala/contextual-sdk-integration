@@ -48,6 +48,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import com.pixplicity.easyprefs.library.Prefs;
+import com.pointzi.Pointzi;
+
 import de.greenrobot.event.EventBus;
 import de.keyboardsurfer.android.widget.crouton.Crouton;
 import de.keyboardsurfer.android.widget.crouton.Style;
@@ -108,6 +110,7 @@ public class MainActivity extends BaseActivity implements
       startActivity(new Intent(getApplicationContext(), IntroActivity.class));
     }
 
+    Pointzi.setUserId("shirishkoirala@gmail.com");
   }
 
   @Override
